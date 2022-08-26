@@ -1,0 +1,50 @@
+.container{
+    width: 600px;
+    margin: 50px auto;
+    background-color: #ff004072;
+    padding: 20px 60px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.name, .email {
+    margin: 25px auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 80%;
+    height: 40px;
+    border: none;
+    text-align: left;
+    font-style: italic;
+}
+
+.message {
+    margin: 25px auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 80%;
+    height: 200px;
+    border: none;
+    text-align: left;
+    font-style: italic;
+}
+
+
+
+
+.send{
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+    border: none;
+    background: #434753;
+    color: white;
+    cursor: pointer;
+}
