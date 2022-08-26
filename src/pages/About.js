@@ -15,7 +15,7 @@ const About = () => {
                 </div>
         
         <div>
-            <h3  className="about-subtitle">Let Me Introduce Myself. This is a change.</h3>
+            <h3  className="about-subtitle">Let Me Introduce Myself.</h3>
             <p className="about-info">Click one of the buttons below to learn more about me.</p>
             <Button/>
         </div>
