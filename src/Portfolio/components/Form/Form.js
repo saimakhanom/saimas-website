@@ -3,13 +3,13 @@ import Questions from "./Questions";
 
 const RadioForm = () => {
     
-    return (
-        <div>
+	return (
+		<div>
             
-            <Questions/>
+			<Questions/>
             
-        </div>
-    );
+		</div>
+	);
 };
 
 export default RadioForm;

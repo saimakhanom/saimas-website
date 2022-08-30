@@ -156,6 +156,7 @@ p.todoinstructions {
     cursor: pointer;
     border: 2px solid white;
     border-radius: 2px;
+    position: relative;
     justify-self: left;
     margin-top: 10px;
 }
@@ -301,16 +302,26 @@ input:focus + label {
     margin-top: 0px;
   }
   
-  .checkbox {
+  .radio-checkbox {
     float: left;
     margin-right: 10px;
     margin-left: 70px;
-    
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    background-color: none;
+  }
+
+  .radio-checkbox:hover {
+    background-color:rgb(217, 0, 152);
+    cursor: pointer;
   }
   
   .descriptionlabel {
     float: left;
-    margin-top: 0px;
+    vertical-align: center;
   }
   
   .question {
