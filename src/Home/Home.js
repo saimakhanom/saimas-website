@@ -15,7 +15,7 @@ const Home = () => {
 					<p id="helloworld">HELLO, WORLD.</p>
 					<h1 className="title">I&apos;m Saima Khanom.</h1>
 					<h4 className="subtitle">HTML | CSS | JAVASCRIPT | REACT | SQL</h4>
-					<a href="http://localhost:3006/about"><button className="button">Learn more about me</button></a>
+					<a href="http://www.saimakhanom.com/about"><button className="button">Learn more about me</button></a>
 				</div>
 				<div className="text">
 					<h2 className="home-subtitle">Welcome To My Website.</h2>
