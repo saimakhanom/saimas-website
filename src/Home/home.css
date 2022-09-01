@@ -5,8 +5,10 @@
 @media only screen and (max-width: 480px) {
   .page-heading {
     font-size: 20px;
+    padding: 10px 20px;
   }
 }
+
 
 
 
@@ -45,12 +47,12 @@
   font-family: 'Poppins', sans-serif;
   color: white;
   padding: 40px;
-  font-size: 3vw;
+  font-size: 50px;
   background-color: rgba(201, 200, 200, 0);
   border: 3px solid #FF0077;
   text-align: center;
   margin-top: 50px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   
 }
 
