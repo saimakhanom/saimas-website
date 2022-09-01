@@ -102,7 +102,7 @@ const Resume = () => {
 										<li>Leading the creation of Schemes of Works (academic year teaching plan) for KS4 and KS5 Science demonstrating the ability to plan and lead activities of strategic importance to the department</li>
 										<li>Analysing KS3 data assessments to identify topics that students were struggling with and creating online revision videos to be used as revision aids by students evidencing an ability to think creatively and use technology to improve education during a time of national lockdown</li>
 										<li>Engaging with the Science department to update and improve the delivery of the science curriculum as well as the order in which topics are taught to ensure a smooth progression of learning from KS3 through to KS5, demonstrating an ability to work collaboratively and think analytically </li>
-										<li></li>
+										
 									</ul>
 								</div>
 

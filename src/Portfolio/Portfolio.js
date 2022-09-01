@@ -7,7 +7,7 @@ import ToDoList from "./components/ToDoList";
 import FileUpload from "./components/FileUpload";
 import ColorPicker from "./components/ColorPicker";
 import Form from "./components/Form/Form";
-import API from "./components/API";
+import StateAPI from "./components/StateAPI";
 
 
 
@@ -56,7 +56,7 @@ const Portfolio = () => {
 					</Tab>
 
 					<Tab eventKey="api" title="API" >
-						<API />
+						<StateAPI />
 					</Tab>
 				</Tabs>
 
