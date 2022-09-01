@@ -118,10 +118,10 @@ const API = () => {
 							{employees.map((employee, index) => (
 
 								<tr key={employee.id}>
-									<td>{employee.id}</td>
-									<td>{employee.first_name}</td>
-									<td>{employee.last_name}</td>
-									<td>{employee.email}</td>
+									<td data-label="ID: ">{employee.id}</td>
+									<td data-label="First Name: ">{employee.first_name}</td>
+									<td data-label="Last Name: ">{employee.last_name}</td>
+									<td data-label="Email: ">{employee.email}</td>
 									<td><button className="employee-btn" onClick={(e) => deleteEmployees(index, e)}>Delete Employee</button></td>
 									<td><button id={employee.id} className="employee-btn" onClick={(e) => { toggleUpdateEmployeePopup(employee.id, e); }}>Update Employee</button></td>
 								</tr>

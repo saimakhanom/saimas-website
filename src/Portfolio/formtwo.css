@@ -2,13 +2,14 @@
     width: 600px;
     margin: 50px auto;
     background-color: #ff004072;
-    padding: 20px 60px;
+    
 }
 
 
 .form{
     display: flex;
     flex-direction: column;
+    margin: auto;
     
 }
 
@@ -22,6 +23,11 @@
     border: none;
     text-align: left;
     font-style: italic;
+    
+}
+
+.name {
+    margin-top: 50px;
 }
 
 .message {
@@ -34,6 +40,7 @@
     border: none;
     text-align: left;
     font-style: italic;
+    
 }
 
 
@@ -47,4 +54,23 @@
     background: #434753;
     color: white;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+
+    .form {
+        width: 260px;
+    }
+
+    .name, .email, .message {
+        width: 100%;
+        
+    }
+
+    .name {
+        margin-top: 50px;
+    }
 }

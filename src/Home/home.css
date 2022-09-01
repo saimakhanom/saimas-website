@@ -26,7 +26,6 @@
 .page-heading {
   font-family: 'Poppins', sans-serif;
   color: white;
-  padding: 40px;
   font-size: 50px;
   background-color: rgba(201, 200, 200, 0);
   border: 3px solid #FF0077;
@@ -186,15 +185,32 @@
 
  @media only screen and (max-width: 480px) {
   .page-heading {
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 30px;
+    padding: 0px 20px;
   }
 
   .navigation {
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  p {
+  .logo {
+    margin-left: 10px;
+  }
+
+  .home-subtitle {
+    font-size: 30px;
+  }
+
+  .about-subtitle {
+    font-size: 30px;
+  }
+
+  .icons {
+    width: 60px;
+    height: 55px;
+  }
+
+  .content {
     font-size: 16px;
   }
 }

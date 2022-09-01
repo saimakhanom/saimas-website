@@ -107,3 +107,26 @@ li {
 .whitespace {
     height: 40vh;
 }
+
+@media only screen and (max-width: 480px) {
+
+.about-subtitle {
+    font-size: 30px;
+  }
+ .about-info {
+    font-size: 18px;
+    margin: 20px; 
+ }
+
+ .about-btn {
+    width: 150px;
+    height: 75px;
+    font-size: 18px;
+ }
+
+ .about-btn:after {
+    width: 150px;
+    height: 75px;
+    font-size: 18px;
+ }
+}

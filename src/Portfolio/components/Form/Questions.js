@@ -73,7 +73,7 @@ const Questions = () => {
 					<h4 className="radioformtitle">Fill in the form below</h4>
 					<form id="form">
 						<div className="question">
-							<p>a. What is your gender?</p>
+							<p className="question-a">a. What is your gender?</p>
 
 							<input className="radio" type="radio" value="Male" name="gender" onChange={createFirstAnswer} checked={answers.gender === "Male"} />
 							<label className="genderlabel">Male</label>

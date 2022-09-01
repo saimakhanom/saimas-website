@@ -1,5 +1,7 @@
 import React from "react";
 import "./resume.css";
+import CV from "./NEWCV.pdf";
+
 
 
 const Resume = () => {
@@ -13,7 +15,8 @@ const Resume = () => {
 			</div>
 
 			<h2 className="about-subtitle">Status: Available</h2>
-			<p></p>
+			
+			
 
 
 			<section id="resume" className="grey-section">
@@ -23,17 +26,19 @@ const Resume = () => {
 						<h1 className="resume-subtitle">My Credentials.</h1>
 
 						<p className="lead content">Please see below for a summary of my education and experience.</p>
+						<p className="see-resume">You can also see my resume in more detail <a className="resume-link" href={CV} target="_blank" rel="noreferrer">here</a>.</p>
 
 					</div>
 				</div>
 
-				<div className="row resume-timeline">
-
-					<div className="col-twelve resume-header">
+				<div className="col-twelve resume-header">
 
 						<h2>Work Experience</h2>
 
 					</div>
+
+				<div className="row resume-timeline">
+
 
 					<div className="col-twelve">
 
@@ -46,13 +51,18 @@ const Resume = () => {
 								</div>
 
 								<div className="timeline-header">
-									<h3>Private Tutor</h3>
+									<h3>GCSE and A-Level Tutor</h3>
 									<p>July 2015 - Present</p>
 								</div>
 
 								<div className="timeline-content">
-									<h4>GCSE and A-Level Tutor</h4>
-									<p className="resume-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+									<h4>Private</h4>
+									<ul className="resume-content">
+										<li>Communicating with students and parents to capture needs to understand the type of service that will be suitable for their educational needs</li>
+										<li>Being empathetic with students to show that I understand their learning challenges and offering various educational solutions to meet the needs of the client
+										</li>
+										<li>Reaching out to other teachers when tutoring students with special needs in order to understand how to meet their needs better demonstrating I am not afraid to reach out to those who know better when I am unsure</li>
+									</ul>
 								</div>
 
 							</div>
