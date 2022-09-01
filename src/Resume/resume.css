@@ -18,12 +18,20 @@
 	font-weight: bold;
 }
 
+.work-experience {
+	font-size: 25px;
+	color: #FF0077;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+
 
 .see-resume {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-bottom: 60px;
 }
 
@@ -36,13 +44,6 @@
 	margin: auto;
 	width: 80%;
 	
-}
-
-#resume .resume-header {
-	text-align: center;
-}
-#resume .resume-header h2 {
-	color: #FF0077;
 }
 
 #resume .resume-timeline {
@@ -172,11 +173,7 @@
 	}
 }
 @media only screen and (max-width:480px) {
-	#resume .resume-header h2 {
-		font-size: 20px;
-		text-align: center;
-		width: 400px;
-	}
+	
 
 	#resume .timeline-wrap::before {
 		left: -1rem;
@@ -200,6 +197,6 @@
 	}
 
 	.timeline-block {
-		width: 400px;
+		width: 390px;
 	}
 }

@@ -16,7 +16,10 @@ const Resume = () => {
 
 			<h2 className="about-subtitle">Status: Available</h2>
 			
-			
+
+						
+
+
 
 
 			<section id="resume" className="grey-section">
@@ -31,11 +34,7 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className="col-twelve resume-header">
-
-						<h2>Work Experience</h2>
-
-					</div>
+				<p className="work-experience">Work Experience</p>
 
 				<div className="row resume-timeline">
 
