@@ -61,27 +61,44 @@ const API = () => {
 
 
 
-	const addNewEmployee = () => {
-				setShow(!show);
-				setButtonShow(!buttonShow);
-				alert("Employee Added!");
-				toggleNewEmployeePopup();
-				setNewEmployee({
-					"id": "",
-					"first_name": "",
-					"last_name": "",
-					"email": ""
-				});
+	const addNewEmployee = (e) => {
+		e.preventDefault();
+		console.log(newEmployee);
+		/*setEmployees(prevState => ({
+			employees: [...prevState.employees, newEmployee]
+		}));*/
+		setEmployees(employees.concat(newEmployee));
+
+		setShow(!show);
+		setButtonShow(!buttonShow);
+		alert("Employee Added!");
+		toggleNewEmployeePopup();
+		setNewEmployee({
+			"id": "",
+			"first_name": "",
+			"last_name": "",
+			"email": ""
+		});
 	};
 
 	//Update data
-	const toggleUpdateEmployeePopup = () => {
+	const toggleUpdateEmployeePopup = (id) => {
 		setUpdateEmployeeIsOpen(!updateEmployeeIsOpen);
+		const toUpdate = employees.filter(employee => employee.id === id);
+		console.log(toUpdate);
+		console.log(id);
+		setUpdatedEmployee(toUpdate[0]);
+		console.log(updatedEmployee);
 	};
 
-	const updateEmployee = () => {
-		
+	const updateEmployee = (e) => {
+		e.preventDefault();
+		const index = employees.findIndex(emp => emp.id === updatedEmployee.id);
+		let copyOfEmployees = [...employees]; // important to create a copy, otherwise you'll modify state outside of setState call
+		copyOfEmployees[index] = updatedEmployee;
+		setEmployees(copyOfEmployees);
 		alert("Employee Updated!");
+		setUpdateEmployeeIsOpen(!updateEmployeeIsOpen);
 	};
 
 	const handleUpdate = (e) => {
@@ -90,12 +107,6 @@ const API = () => {
 			[e.target.name]: e.target.value
 		}));
 	};
-
-
-	
-
-
-
 
 	return (
 		<div className="api">
