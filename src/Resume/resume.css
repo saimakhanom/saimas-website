@@ -215,4 +215,17 @@ font-family: 'Roboto', sans-serif;
 	.timeline-block {
 		width: 390px;
 	}
+
+	.technical-skills{
+		
+		width: 400px;
+		
+	}
+
+	.technical-skills li{
+		width: 325px;
+		margin-right: -10px;
+		margin-left: -50px;
+	}
+
 }
