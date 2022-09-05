@@ -140,7 +140,6 @@ li {
   
   li {
       margin-top: 1px;
-      border: 2px solid black;
       width: 175px;
   }
   
@@ -150,14 +149,12 @@ li {
       grid-template-columns: 1fr 1fr;
       margin: auto;
       column-gap: 10px;
-      border: 2px solid black;
   }
   .grid-item {
       width: 100%; 
       font-weight: 600;
       padding-bottom: 40px; 
       border: 3px solid #FF0077;  
-      border: 2px solid black;
   }
   .list-title { 
       font-size: 18px;
@@ -177,7 +174,4 @@ li {
       color: white; 
       
   }
-
-
- 
 }

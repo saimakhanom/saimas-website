@@ -30,7 +30,7 @@ const Portfolio = () => {
 			</div>
 
 			<div className="folio-tabs">
-				<Tabs
+				<Tabs 
 					defaultActiveKey="profile"
 					id="portfolio"
 					className="portfoliotabs"

@@ -1,6 +1,6 @@
 import React from "react";
 import "./resume.css";
-import CV from "./NEWCV.pdf";
+import CV from "./SaimaCodingCVSep2022.pdf";
 
 
 
@@ -15,9 +15,9 @@ const Resume = () => {
 			</div>
 
 			<h2 className="about-subtitle">Status: Available</h2>
-			
 
-						
+
+
 
 
 
@@ -27,11 +27,37 @@ const Resume = () => {
 				<div className="row section-intro">
 					<div className="col-twelve">
 						<h1 className="resume-subtitle">My Credentials.</h1>
-
+						<p className="content">I am a former teacher with over 7 years of teaching experience in various education settings. I have recently left the education sector to pursue a career in software development. I am  skilled in frontend languages such as HTML, CSS, JS and React.JS as demonstrated by this portfolio website which was built from scratch using React. I am currently learning backend languages such as SQL to expand my skill set.
+						I aim to become a React Developer as a stepping stone to becoming a full-stack engineer. My problem-solving approach to coding and ability to master new skills quickly lends itself to the creation and maintenance of functional and quality websites.
+						</p>
+						<br />
 						<p className="lead content">Please see below for a summary of my education and experience.</p>
-						<p className="see-resume">You can also see my resume in more detail <a className="resume-link" href={CV} target="_blank" rel="noreferrer">here</a>.</p>
+						<br />
+						<p className="see-resume content">You can also see my resume in more detail <a className="resume-link" href={CV} target="_blank" rel="noreferrer">here</a>.</p>
+						<br />
+						<p className="see-resumetwo content">And you can access the git repository for this website <a className="resume-link" href="https://github.com/saimakhanom/saimas-website" target="_blank" rel="noreferrer">here</a>.</p>
 
 					</div>
+				</div>
+
+				<div>
+					<h3 className="work-experience">Technical Skills</h3>
+					<ul className="resume-content technical-skills">
+						<li>Designing and developing re-usable React components (function and class-based) to allow re-use of code and to speed up development time </li>
+						<li>Good knowledge of programming concepts such as objects, arrays, scoping, functions and variables</li>
+						<li>Debugging code with devtools and ESLint, to ensure high code quality</li>
+						<li>Knowledge of states, hooks and APIs, including use of Axios to obtain and update data from APIs
+						</li>
+						<li>Following documentation to ensure code is up to date</li>
+						<li>Using CSS tools such as media queries, Grid and Flexbox as well as React Bootstrap components to produce visually pleasing user-interfaces and responsive web design </li>
+						<li>Using git to track changes with add, commit, push and pull, as well as branching and merging strategies</li>
+						<li>Using NPM to take advantage of external libraries and packages </li>
+						<li>Using Heroku to deploy React applications into production through a build pipeline</li>
+						<li>Using SQL to build and update databases and retrieve data</li>
+						<li>Pair programming with other coders and working collaboratively to complete projects</li>
+						<li>Completing various courses to expand skill set such as coding with companies such as SHECODES and CODECADEMY, as well as the Harris Diploma in Team Leadership (HDTL), and REED courses in project management and leadership</li>
+					</ul>
+
 				</div>
 
 				<p className="work-experience">Work Experience</p>
@@ -80,12 +106,10 @@ const Resume = () => {
 								<div className="timeline-content">
 									<h4>Harris Academy Riverside</h4>
 									<ul className="resume-content">
-										<li>Collating and analysing student performance data to understand areas of weakness in topics and plan interventions to address these, showcasing a clear interest in using data to drive decision making</li>
 										<li>Using analysis of performance data to drive the development of new and engaging strategies to support struggling students to ensure progress in learning, evidencing the ability to think creatively</li>
 										<li>Leading programmes on developing the most able students throughout the whole school using engaging and innovative strategies such as entering students into nationwide competitions (e.g. Chemistry Olympiad, The Scholars’ Programme) to challenge and inspire the brightest students evidencing an ability to lead and think creatively</li>
 										<li>Leading the Outreach Programme for Cyber First Girls Competition to provide girls who are interested in tech an opportunity to ascertain what a career in tech could entail and increase gender diversity in a male dominated industry</li>
 										<li>Acting as the Technology and Document Management Lead for the department in transitioning to the use of Microsoft Teams and creating new processes for all departmental work to be saved onto MS Teams during the lockdown demonstrating natural problem-solving ability and creative thinking </li>
-										<li>Creating real time dashboard updates (on excel) on the performance of year groups broken down by classes that are updated when teachers update performance data for their individual classes proving an aptitude for data and ensuring that key decisions are data driven and providing a basis for collaborative working in my department</li>
 										<li>Fulfilling multiple whole school leadership roles (Most-able Co-ordinator and Assistant Head of Sixth Form) alongside my full teaching timetable and pastoral responsibilities to an exceptional standard, demonstrating commitment to the job as well as effective organisational and time management skills</li>
 										<li>Promoting diversity and inclusion by holding career workshops and inviting professionals from diverse backgrounds to give students an insight into their career journey</li>
 									</ul>
@@ -111,7 +135,7 @@ const Resume = () => {
 										<li>Leading the creation of Schemes of Works (academic year teaching plan) for KS4 and KS5 Science demonstrating the ability to plan and lead activities of strategic importance to the department</li>
 										<li>Analysing KS3 data assessments to identify topics that students were struggling with and creating online revision videos to be used as revision aids by students evidencing an ability to think creatively and use technology to improve education during a time of national lockdown</li>
 										<li>Engaging with the Science department to update and improve the delivery of the science curriculum as well as the order in which topics are taught to ensure a smooth progression of learning from KS3 through to KS5, demonstrating an ability to work collaboratively and think analytically </li>
-										
+
 									</ul>
 								</div>
 
@@ -132,7 +156,6 @@ const Resume = () => {
 									<h4>Social Media</h4>
 									<ul className="resume-content">
 										<li>Listening to the needs of customers, asking relevant questions, uncovering any barriers to service delivery and capturing the needs of customers accurately, enhancing attention to detail and ability to provide first class customer service</li>
-										<li>Successfully dealing with all customer enquiries ranging from large events to small bespoke packages via telephone, email and social media </li>
 										<li>Communicating with customers in a straightforward manner and adopting an approachable style, developing communication skills appropriate for all business environments  </li>
 										<li>Adapting customer engagement techniques depending on the type of customer and the service package they are looking to purchase (e.g. corporate or individual) displaying deep understanding of customer engagement techniques and how to tailor them to meet the needs of the customer</li>
 										<li>Using data and insights from successful business leads to inform marketing strategy for attracting potential new clients</li>
@@ -159,8 +182,8 @@ const Resume = () => {
 									<ul className="resume-content">
 										<li>Putting students and their requirements at the heart of my teaching, developing deep understanding for the service I am providing and how that should be tailored towards the students taught</li>
 										<li>Responsible for delivering high quality of teaching and improving student grades whilst contributing towards departmental objectives enhancing ability to achieve personal and departmental objectives simultaneously</li>
-										<li>Studying the science national curriculum and using initiative to plan lessons ahead of delivering them demonstrating ability to be proactive and organised</li>
-										<li>Establishing shared learning groups with other Trainee Teachers to provide a platform for challenges and learning to be shared, evidencing a desire to learn and share best practice, and appreciate different methods of addressing common problems</li>
+										<li>•	Using feedback to develop own teaching methodologies by implementing practices from those more experienced</li>
+										<li>•	Establishing shared learning groups with other Trainee Teachers to provide a platform for challenges and learning to be shared, evidencing a desire to learn and share best practice</li>
 									</ul>
 								</div>
 
@@ -181,8 +204,7 @@ const Resume = () => {
 									<h4>Azhar Academy School</h4>
 									<ul className="resume-content">
 										<li>Identifying emerging issues/challenges associated with student learning, using innovating techniques to address them and sharing this insight with team and the rest of the school </li>
-										<li>Planning lessons and creating schemes of work for specialist subjects </li>
-										<li>Maintaining high expectations of students by expecting them to undertake independent preparation of content to be studied before taught lessons, providing them with the schedule of lessons to be taught each half term and providing them preparation work to guide them with the content that should be covered before each lesson</li>
+										<li>Maintaining high expectations of students by expecting them to undertake independent preparation of content to be studied before taught lessons </li>
 										<li>Building strong relationships with each student inside and outside the classroom by focusing on their interests such that students feel comfortable to approach me when in need of support and guidance, and helping to increase their confidence and love for the subject</li>
 									</ul>
 								</div>
@@ -195,13 +217,15 @@ const Resume = () => {
 
 				</div>
 
+				<div className="work-experience">
+
+					<h3>Education</h3>
+
+				</div>
+
+
+
 				<div className="row resume-timeline">
-
-					<div className="col-twelve resume-header">
-
-						<h2>Education</h2>
-
-					</div>
 
 					<div className="col-twelve">
 

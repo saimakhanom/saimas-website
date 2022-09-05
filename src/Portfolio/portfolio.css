@@ -32,13 +32,9 @@
 
 
 ul.nav.nav-tabs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
+  
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .portfoliotabs .nav-link {
@@ -558,7 +554,7 @@ option {
 
   ul.nav.nav-tabs, .portfoliotabs .nav-link {
     font-size: 16px;
-    padding: 0px;
+   
   }
 
   td, tr { display: block; }

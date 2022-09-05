@@ -13,6 +13,14 @@
 	color: #FF0077;
 }
 
+.see-resumetwo {
+font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
 .resume-link:hover {
 	color: #FF0077;
 	font-weight: bold;
@@ -22,8 +30,10 @@
 	font-size: 25px;
 	color: #FF0077;
 	font-family: 'Roboto', sans-serif;
-	font-weight: bolder;
+	font-weight: bold;
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 
@@ -31,8 +41,6 @@
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 20px;
-  padding-bottom: 60px;
 }
 
 #resume {
@@ -46,9 +54,17 @@
 	
 }
 
+.technical-skills {
+	max-width: 1500px;
+	padding: 50px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
 #resume .resume-timeline {
-	max-width: 1300px;
+	max-width: 1500px;
 	margin: auto;
+	
 }
 #resume .timeline-wrap {
 	position: relative;
