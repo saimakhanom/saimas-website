@@ -13,7 +13,7 @@ const Portfolio = () => {
 			</div>
 
 			<div>
-				<h2 className="home-subtitle">Here Are The Latest Projects I've Been Working On.</h2>
+				<h2 className="home-subtitle">Here Are The Latest Projects I&apos;ve Been Working On.</h2>
 				<p className="content">**Coming soon**</p>
 				
 			</div>

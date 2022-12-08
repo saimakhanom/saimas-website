@@ -20,7 +20,7 @@ const Home = () => {
 				</div>
 				<div className="text">
 					<h2 className="home-subtitle">Welcome To My Website.</h2>
-					<p className="content">My name is Saima Khanom, and I am a full time Private Tutor and aspiring React Developer! This website is an example of the React skills I have learnt so far. Use the links at the top of the page to navigate through my website, learn more about me and see what I can do. </p>
+					<p className="content">My name is Saima Khanom, and I am currentlya Front-end Developer Intern for Uplifter Ltd! This website is an example of the React skills I have learnt so far. Use the links at the top of the page to navigate through my website, learn more about me and see what I can do. </p>
 					<br />
 					<p className="content">Alternatively, you can contact me via email at <a className="link" href="http://localhost:3006/contactme" >saimakhanom@gmail.com </a> and through the form in the &apos;Contact Me&apos; section 😃</p>
 					<p className="content">Thanks for visiting my page, and enjoy!</p>
@@ -28,12 +28,12 @@ const Home = () => {
 					<div className="grid-container">
 						<div className="content-img">
 							<img className="icons" src={html5} alt="html" />
-							<div className="content">HTML5</div>
+							<div className="content">HTML</div>
 						</div>
 
 						<div className="content-img">
 							<img className="icons" src={css} alt="css" />
-							<div className="content">CSS3</div>
+							<div className="content">CSS</div>
 						</div>
 
 						<div className="content-img">
