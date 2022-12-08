@@ -159,7 +159,7 @@ const API = () => {
 									<td>{employee.last_name}</td>
 									<td>{employee.email}</td>
 									<td><button className="employee-btn" onClick={(e) => { deleteEmployees(employee.id, e); }}>Delete Employee</button></td>
-									<td><button id={employee.id} className="employee-btn" onClick={(e) => { toggleUpdateEmployeePopup(employee.id, e); }}>Update Employee</button></td>
+									<td><button data-testid="updatePopupButton" id={employee.id} className="employee-btn" onClick={(e) => { toggleUpdateEmployeePopup(employee.id, e); }}>Update Employee</button></td>
 								</tr>
 
 							))}
@@ -169,7 +169,7 @@ const API = () => {
 
 				</div>
 
-				{updateEmployeeIsOpen && <Popup content={<div className="updateForm">
+				{updateEmployeeIsOpen && <Popup content={<div className="updateForm" data-testid="popup">
 					<form >
 						<h4 className="counter-title content" id="newemployee">Update the employee details below:</h4>
 						<div className="input-div">

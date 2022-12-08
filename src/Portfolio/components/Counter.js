@@ -7,7 +7,6 @@ const Counter = () => {
 	const handleClick = () => {
 		setMaxClicks(false);
 		setCount(count + 1);
-        
 	};
 
 	useEffect(()=>{
@@ -16,21 +15,19 @@ const Counter = () => {
 			setCount(0);
 		}
 	}, [count]);
-
     
 	return (
 		<>
-			<p className="counter-title content">This is a counter that I have created using useState() and useEffect(). Clicking the counter too many times will cause a message to be displayed and the counter to reset.</p>
+			<p className="counter-title content" data-testid="counter">This is a counter that I have created using useState() and useEffect(). Clicking the counter too many times will cause a message to be displayed and the counter to reset.</p>
 
 			<div className="counter">
 				<h5  className="counter-subtitle">Click the button below and see what happens when you reach 20!</h5>
-                
 				<div className="btn-div">
-					<button className="counter-btn" onClick={handleClick}>Click me</button>
+					<button data-testid="button" className="counter-btn" onClick={handleClick}>Click me</button>
 				</div>
-
-				<p className="counter-subtitle">You have clicked this button {count} times.</p>
-				<div>{maxClicks?<p className="counter-subtitle">You have clicked the button too many times, the counter has reset.</p>:<p></p>}</div>
+		
+				<p data-testid="count" className="counter-subtitle">You have clicked this button {count} times.</p>
+				<div>{maxClicks?<p className="counter-subtitle">You have clicked the button too many times, the counter has reset.</p>:<div></div>}</div>
 			</div>
 		</>
 	);
