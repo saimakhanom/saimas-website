@@ -3,7 +3,7 @@ import "./resume.css";
 import CV from "./SaimaCodingCVDec2022.pdf";
 
 const Resume = () => {
-  // test
+  // testing heroku deploy
   return (
     <div>
       
