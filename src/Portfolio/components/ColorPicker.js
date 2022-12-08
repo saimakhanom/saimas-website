@@ -9,12 +9,13 @@ const ColorPicker = () => {
 		const newColor = colors[randomIndex];
 		setColor(newColor);
 	};
+	
 	return (
 		<div>
 			<p className="counter-title content">This is a Color Picker. Clicking the button will generate a random background color.</p>
 			<div style={divStyle} className="color-div">
             
-				<p className="color-sentence">The name of this color is <span className="color-name">{color}</span>.</p>
+				<p className="color-sentence">The name of this color is <span className="color-name" data-testid="color">{color}</span>.</p>
 				<button className="color-btn" onClick={changeColor}>Change color</button>
 			</div>
 		</div>

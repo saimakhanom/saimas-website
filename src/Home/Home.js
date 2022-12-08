@@ -6,6 +6,7 @@ import js from "./images/js.png";
 import react from "./images/react.png";
 import sql from "./images/sql.png";
 
+
 const Home = () => {
 
 	return (
@@ -13,8 +14,8 @@ const Home = () => {
 			<div className="home">
 				<div id="head">
 					<p id="helloworld">HELLO, WORLD.</p>
-					<h1 className="title">I&apos;m Saima Khanom.</h1>
-					<h4 className="subtitle">HTML | CSS | JAVASCRIPT | REACT | SQL</h4>
+					<h1 className="title" data-testid="subtitle">I&apos;m Saima Khanom.</h1>
+					<h4 className="subtitle" >HTML | CSS | JAVASCRIPT | REACT | SQL</h4>
 					<a href="http://www.saimakhanom.com/about"><button className="button">Learn more about me</button></a>
 				</div>
 				<div className="text">

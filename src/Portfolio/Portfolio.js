@@ -1,15 +1,5 @@
 import React from "react";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
 import "./portfolio.css";
-import Counter from "./components/Counter";
-import ToDoList from "./components/ToDoList";
-import FileUpload from "./components/FileUpload";
-import ColorPicker from "./components/ColorPicker";
-import Form from "./components/Form/Form";
-import StateAPI from "./components/StateAPI";
-
-
 
 const Portfolio = () => {
 
@@ -23,44 +13,11 @@ const Portfolio = () => {
 			</div>
 
 			<div>
-				<h2 className="home-subtitle">Here Are Some Things I Can Do.</h2>
-				<p className="content">Under each of the tabs below are various components that carry out different functions. </p>
-				<br/>
-				<p className="content">Each of these components have been built with various React functionality, such as hooks, as well as making use of React-Bootstrap components, and calling APIs to access and update information from  databases - and some are even re-usable!</p>
+				<h2 className="home-subtitle">Here Are The Latest Projects I've Been Working On.</h2>
+				<p className="content">**Coming soon**</p>
+				
 			</div>
 
-			<div className="folio-tabs">
-				<Tabs 
-					defaultActiveKey="profile"
-					id="portfolio"
-					className="portfoliotabs"
-				>
-					<Tab eventKey="counter" title="Counter" >
-						<Counter />
-					</Tab>
-
-					<Tab eventKey="todolist" title="To Do List" >
-						<ToDoList />
-					</Tab>
-
-					<Tab eventKey="uploadfile" title="Upload File" >
-						<FileUpload />
-					</Tab>
-
-					<Tab eventKey="colorpicker" title="Color Picker" >
-						<ColorPicker />
-					</Tab>
-
-					<Tab eventKey="form" title="Form" >
-						<Form />
-					</Tab>
-
-					<Tab eventKey="api" title="API" >
-						<StateAPI />
-					</Tab>
-				</Tabs>
-
-			</div>
 		</>
 	);
 };
