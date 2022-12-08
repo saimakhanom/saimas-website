@@ -30,7 +30,7 @@ const Button = () => {
 
 			{showStory && (
 				<div className="btn-text">
-					<p className="content">Hi, my name is Saima Khanom. I am currently a private tutor and a former A-level Science teacher.</p>
+					<p className="content">Hi, my name is <a href="https://www.linkedin.com/in/saimakhanom/" target="_blank" rel="noreferrer">Saima Khanom</a>. I am currently a FrontEnd Developer Intern at Uplifter Ltd and a former A-level Science teacher.</p>
 					<br />
 					<p className="content">I have been interested in coding for some time now and this year I officially took the leap and left my teaching post to pursue a career in software development! Since then, I have learnt HTML, CSS, JavaScript and React, and I am currently learning SQL. My ambition is to become a full-time React developer on my way to becoming a full-stack engineer and so I am currently on the hunt for a Junior React Developer role.</p>
 					<br />
@@ -53,11 +53,13 @@ const Button = () => {
 							</div>
 
 							<ul className="list-content">
-								<li>HTML5</li>
-								<li>CSS3</li>
-								<li>JavaScript ES6</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
 								<li>React</li>
+								<li>TypeScript</li>
 								<li>Bootstrap</li>
+								<li>Git/GitHub</li>
 								<li>ESLint</li>
 								<li>SQL (<i>in progress</i>)</li>
 							</ul>
