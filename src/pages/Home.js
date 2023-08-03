@@ -1,10 +1,10 @@
 import React from "react";
-import "./home.css";
-import css from "./images/css.png";
-import html5 from "./images/html5.png";
-import js from "./images/js.png";
-import react from "./images/react.png";
-import sql from "./images/sql.png";
+import "../styles/home.css";
+import css from "../assets/css.png";
+import html5 from "../assets/html5.png";
+import js from "../assets/js.png";
+import react from "../assets/react.png";
+import sql from "../assets/sql.png";
 
 
 const Home = () => {
