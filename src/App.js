@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home/Home";
-import About from "./About/About";
-import Portfolio from "./Portfolio/Portfolio";
-import Header from "./Home/Header";
-import Footer from "./Home/Footer";
-import Resume from "./Resume/Resume";
-import ContactMe from "./Contact Me/Contact Me";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Resume from "./pages/Resume";
+import ContactMe from "./pages/Contact Me";
 
 
 function App() {
