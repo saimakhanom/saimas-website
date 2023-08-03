@@ -1,5 +1,5 @@
 import React from "react";
-import FormTwo from "../Portfolio/components/FormTwo";
+import FormTwo from "../components/FormTwo";
 
 const ContactMe = () => { 
 	return ( 
