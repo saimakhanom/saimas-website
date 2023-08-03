@@ -1,16 +1,12 @@
 import React from "react";
-import "./portfolio.css";
+import Banner from "../components/Banner";
+import "../styles/portfolio.css";
 
 const Portfolio = () => {
 
 	return (
 		<>
-			<div id="head">
-				<p id="helloworld">HELLO, WORLD.</p>
-				<h1 className="title">I&apos;m Saima Khanom.</h1>
-				<h4 className="subtitle">HTML | CSS | JAVASCRIPT | REACT | SQL</h4>
-				<p className="page-heading"> Portfolio</p>
-			</div>
+			<Banner pageName="Portfolio"/>
 
 			<div>
 				<h2 className="home-subtitle">Here Are The Latest Projects I&apos;ve Been Working On.</h2>

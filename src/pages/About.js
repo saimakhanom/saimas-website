@@ -1,18 +1,14 @@
 import React from "react";
 import Button from "../components/AboutButton";
-import "./about.css";
+import "../styles/about.css";
+import Banner from "../components/Banner";
 
 
 const About = () => { 
     
 	return ( 
 		<>
-			<div id="head">
-				<p id="helloworld">HELLO, WORLD.</p>
-				<h1 className="title">I&apos;m Saima Khanom.</h1>
-				<h4 className="subtitle">HTML | CSS | JAVASCRIPT | REACT | SQL</h4>
-				<p className="page-heading">About Me</p>
-			</div>
+			<Banner pageName="About Me"/>
         
 			<div>
 				<h3 className="about-subtitle">Let Me Introduce Myself.</h3>

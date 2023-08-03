@@ -2,13 +2,13 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./images/logo.jpg";
+import logo from "../assets/logo.jpg";
 
 const Header = () => {
 	return (
 		<div className="navigation">
 
-			<Navbar bg="light" variant="light" className="navbar">
+			<Navbar className="navbar">
 				<img src={logo} className="logo" alt="logo" />
 				<Nav className="me-auto">
 					<Nav.Link href="/">Home</Nav.Link>

@@ -1,15 +1,11 @@
 import React from "react";
 import FormTwo from "../components/FormTwo";
+import Banner from "../components/Banner";
 
 const ContactMe = () => { 
 	return ( 
 		<>
-			<div id="head">
-				<p id="helloworld">HELLO, WORLD.</p>
-				<h1 className="title">I&apos;m Saima Khanom.</h1>
-				<h4 className="subtitle">HTML | CSS | JAVASCRIPT | REACT | SQL</h4>
-				<p className="page-heading">Contact Me</p>
-			</div>
+			<Banner pageName="Contact Me"/>
 			<FormTwo/>
 		</>
 	); 
