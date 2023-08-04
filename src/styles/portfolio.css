@@ -561,23 +561,100 @@ option {
 }
 
 .projects {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  border: 5px solid black;
+  text-align: center;
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project:hover .image {
+  opacity: 0.6;
+  
+}
+
+.project:hover {
+  outline: 1px solid #ff0077;
+  cursor: pointer;
 }
 
 .project {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
+  position: relative;
+  margin-bottom: 50px;
+  padding: 1% 0% 3% 0%;
+}
+
+.project h1 {
+  margin-bottom: 40px;
 }
 
 .image {
-  width: 40%;
-  height: 200px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 90%;
+  height: auto;
+  margin: auto;
 }
 
+.middle {
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  /* z-index: 99; */
+}
 
-.image:hover {
-  cursor: pointer;
+.project:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ff0077;
+  width: 200px;
+  color: white;
+  font-size: 16px;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+}
+
+.techStack {
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  background-color: #ff0077;
+  padding: 0.8em 1.5em;
+  width: fit-content;
+  border-radius: 30px;
+  margin: 30px auto;
+}
+
+.spacing {
+  margin: auto 15px
+}
+
+ul.nav.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #ff0077 !important;
+
 }

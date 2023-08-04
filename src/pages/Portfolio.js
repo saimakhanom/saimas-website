@@ -3,7 +3,14 @@ import Banner from "../components/Banner";
 import "../styles/portfolio.css";
 import TE from "../assets/TEScreenshot.PNG";
 import GYSI from "../assets/GYSIScreenshot.PNG";
-import { useNavigate } from "react-router-dom";
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
+import Counter from "../components/Counter";
+import RadioForm from "../components/Form/Form";
+import ToDoList from "../components/ToDoList";
+import FileUpload from "../components/FileUpload";
+import ColorPicker from "../components/ColorPicker";
+import StateAPI from "../components/StateAPI";
 
 const projects = [
   {
@@ -55,7 +62,7 @@ const projects = [
 
 const Portfolio = () => {
   const handleClick = (url) => {
-   window.location = url;
+    window.location = url;
   };
 
   return (
@@ -69,28 +76,56 @@ const Portfolio = () => {
         <div className="projects">
           {projects.map((project, i) => {
             return (
-              <div className="project" key={i}>
-                <img
-                  src={project.img}
-                  className="image"
-                  onClick={() => {
-                    handleClick(project.url);
-                  }}
-                />
-                <div>
-                  <h2>{project.name}</h2>
-                  {project.desc.map((desc, i) => {
-                    return (
-                      <div className="desc" key={i}>
-                        <p>{desc}</p>
-                      </div>
-                    );
-                  })}
+              <div
+                className="project"
+                key={i}
+                onClick={() => {
+                  handleClick(project.url);
+                }}
+              >
+                <h1>{project.name}</h1>
+                <img src={project.img} className="image" />
+                <div className="middle">
+                  <div class="middle">
+                    <p className="techStack">
+                      Tech stack:{" "}
+                      {project.tech.map((tech, i) => {
+                        if (i === project.tech.length - 1) {
+                          return <span className="spacing">{tech}</span>;
+                        }
+                        return <span className="spacing">{tech}</span>;
+                      })}
+                    </p>
+                    <div class="text">Find out more</div>
+                  </div>
                 </div>
               </div>
             );
           })}
         </div>
+
+        <h2 className="home-subtitle">Some Fun Mini Projects.</h2>
+
+        <Tabs defaultActiveKey="portfolio" className="tabs">
+          <Tab eventKey="counter" title="Counter">
+            <Counter />
+          </Tab>
+          <Tab eventKey="ColorPicker " title="Color Picker ">
+            <ColorPicker />
+          </Tab>
+          <Tab eventKey="FileUpload" title="File Uploader">
+            <FileUpload />
+          </Tab>
+          <Tab eventKey="StateAPI" title="State API">
+            <StateAPI />
+          </Tab>
+          <Tab eventKey="ToDoList" title="To Do List">
+            <ToDoList />
+          </Tab>
+          <Tab eventKey="Quiz" title="Quiz">
+            <RadioForm />
+          </Tab>
+        </Tabs>
       </div>
     </>
   );
