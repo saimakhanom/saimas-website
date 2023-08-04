@@ -18,34 +18,29 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
   margin-top: 50px;
-
 }
 
 .task {
   width: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   align-self: bottom;
   margin-top: 10px;
 }
 
-
-
 ul.nav.nav-tabs {
-  
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 23px;
 }
 
 .portfoliotabs .nav-link {
-  color: #FF0077 !important;
+  color: #ff0077 !important;
 }
-
 
 .counter-btn,
 .todo-btn {
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   margin: 20px;
   width: 200px;
   height: 50px;
@@ -63,7 +58,7 @@ ul.nav.nav-tabs {
 .counter-btn:active,
 .todo-btn:active,
 .file-btn:active {
-  background-color: #FF0077;
+  background-color: #ff0077;
   color: white;
 }
 
@@ -84,7 +79,7 @@ ul.nav.nav-tabs {
 }
 
 .counter {
-  border: 3px solid #FF0077;
+  border: 3px solid #ff0077;
   width: 700px;
   margin: auto auto 60px auto;
   padding: 30px;
@@ -101,24 +96,20 @@ ul.nav.nav-tabs {
   width: 750px;
   margin: auto auto 70px auto;
   padding: 40px;
-  border: 2px solid #FF0077;
+  border: 2px solid #ff0077;
 }
 
 p.todoinstructions {
   text-align: left;
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
-
-
 
 .done {
   text-decoration: line-through;
 }
-
-
 
 .todo-input {
   font-size: 22px;
@@ -135,14 +126,12 @@ p.todoinstructions {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-
 }
 
 .task-number {
   text-align: center;
   width: 100%;
   margin-top: 30px;
-  
 }
 
 .checkbox {
@@ -163,12 +152,9 @@ p.todoinstructions {
   border-radius: 2px;
 }
 
-
-
-
 .file-btn {
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   width: 140px;
   height: 50px;
   font-size: 25px;
@@ -177,9 +163,9 @@ p.todoinstructions {
 }
 
 .file-div {
-  border: 3px solid #FF0077;
+  border: 3px solid #ff0077;
   width: 700px;
-  border: 3px solid #FF0077;
+  border: 3px solid #ff0077;
   width: 600px;
   margin: auto;
   margin-top: 100px;
@@ -194,7 +180,6 @@ p.todoinstructions {
   width: 0.1px;
   height: 0.1px;
   position: absolute;
-
 }
 
 .file-input-label {
@@ -203,30 +188,29 @@ p.todoinstructions {
   width: 200px;
   height: 50px;
   border-radius: 25px;
-  background: linear-gradient(40deg, #FF0077, #d80048);
+  background: linear-gradient(40deg, #ff0077, #d80048);
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   cursor: pointer;
-  transition: transform .2s ease-out;
-  font-family: 'Poppins', sans-serif;
+  transition: transform 0.2s ease-out;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   letter-spacing: 1.5px;
 }
 
-input:hover+label,
-input:focus+label {
+input:hover + label,
+input:focus + label {
   transform: scale(1.02);
 }
 
 .file-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin-top: 30px;
-
 }
 
 .file-info {
@@ -239,8 +223,8 @@ input:focus+label {
 }
 
 .color-btn {
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   margin: 20px auto;
   width: 200px;
   height: 50px;
@@ -255,7 +239,7 @@ input:focus+label {
 }
 
 .color-btn:active {
-  background-color: #FF0077;
+  background-color: #ff0077;
   color: white;
 }
 
@@ -267,11 +251,11 @@ input:focus+label {
   align-content: center;
   text-align: center;
   width: 60%;
-  border: 2px solid #FF0077;
+  border: 2px solid #ff0077;
 }
 
 .color-sentence {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   margin: 30px auto;
 }
@@ -284,26 +268,23 @@ input:focus+label {
 .radioform-div {
   margin: 50px auto;
   padding-bottom: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   width: 60%;
-  border: 2px solid #FF0077;
+  border: 2px solid #ff0077;
   border: 2px solid black;
 }
-
 
 .radio {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
   margin-left: 70px;
-  
 }
 
 .genderlabel {
   float: left;
   margin-top: 0px;
-  
 }
 
 .radio-checkbox {
@@ -326,18 +307,16 @@ input:focus+label {
 .descriptionlabel {
   float: left;
   vertical-align: center;
-  
 }
 
 .question {
   margin-top: 10px;
   margin-left: 13vw;
-  
 }
 
 .radioformtitle {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 26px;
   font-weight: bolder;
   margin-top: 30px;
@@ -348,8 +327,8 @@ input:focus+label {
   width: 260px;
   padding: 10px;
   text-align: center;
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   font-size: 25px;
   color: white;
   margin: auto;
@@ -360,13 +339,11 @@ input:focus+label {
 .submitbutton:hover {
   background-color: white;
   color: black;
-
 }
 
 .submitbutton:active {
-  background-color: #FF0077;
+  background-color: #ff0077;
   color: white;
-
 }
 
 option {
@@ -399,21 +376,21 @@ option {
   color: white;
   font-size: 18px;
   letter-spacing: 1.5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .table-body {
   font-size: 16px;
   letter-spacing: 1.5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .employee-btn {
   width: 140px;
   padding: 5px;
   text-align: center;
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   font-size: 15px;
   color: white;
   margin: auto;
@@ -425,26 +402,23 @@ option {
 .employee-btn:hover {
   background-color: white;
   color: black;
-
 }
 
 .employee-btn:active {
-  background-color: #FF0077;
+  background-color: #ff0077;
   color: white;
-
 }
 
 .button-row {
   display: flex;
-
 }
 
 .addemployee-btn {
   width: 190px;
   padding: 5px;
   text-align: center;
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   font-size: 19px;
   color: white;
   margin: 20px auto;
@@ -455,21 +429,19 @@ option {
 .addemployee-btn:hover {
   background-color: white;
   color: black;
-
 }
 
 .addemployee-btn:active {
-  background-color: #FF0077;
+  background-color: #ff0077;
   color: white;
-
 }
 
 .updateemployee-btn {
   width: 120px;
   padding: 5px;
   text-align: center;
-  background-color: #FF0077;
-  border: 2px solid #FF0077;
+  background-color: #ff0077;
+  border: 2px solid #ff0077;
   font-size: 19px;
   color: white;
   margin: 20px auto;
@@ -480,17 +452,15 @@ option {
 .updateemployee-btn:hover {
   background-color: white;
   color: black;
-
 }
 
 .updateemployee-btn:active {
-  background-color: #FF0077;
+  background-color: #ff0077;
   color: white;
-
 }
 
 .employee-input {
-  border: 1px solid #FF0077;
+  border: 1px solid #ff0077;
   margin: 1px;
   padding: 5px;
   vertical-align: middle;
@@ -502,7 +472,6 @@ option {
 }
 
 @media only screen and (max-width: 480px) {
-
   .counter {
     width: 390px;
   }
@@ -527,12 +496,14 @@ option {
     width: 150px;
     padding: 0px;
   }
-  
+
   p.todoinstructions {
     font-size: 16px;
   }
 
-  .file-div, .color-div, .radioform-div {
+  .file-div,
+  .color-div,
+  .radioform-div {
     width: 400px;
     text-align: center;
   }
@@ -552,37 +523,61 @@ option {
     width: 190px;
   }
 
-  ul.nav.nav-tabs, .portfoliotabs .nav-link {
+  ul.nav.nav-tabs,
+  .portfoliotabs .nav-link {
     font-size: 16px;
-   
   }
 
-  td, tr { display: block; }
+  td,
+  tr {
+    display: block;
+  }
 
-thead tr {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
 
-tr + tr { margin-top: 1.5em; }
-td {
-  
-  border: none;
-  position: relative;
-  padding-left: 50%;
-  text-align: left;
-}
-td:before {
-  content: attr(data-label);
-  display: inline;
-  width: 100%;
-  white-space: nowrap;
-}
+  tr + tr {
+    margin-top: 1.5em;
+  }
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+  }
+  td:before {
+    content: attr(data-label);
+    display: inline;
+    width: 100%;
+    white-space: nowrap;
+  }
 
   .employee-btn {
     font-size: 14px;
   }
+}
 
-  
+.projects {
+  width: 80%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.image {
+  width: 40%;
+  height: 200px;
+}
+
+
+.image:hover {
+  cursor: pointer;
 }
